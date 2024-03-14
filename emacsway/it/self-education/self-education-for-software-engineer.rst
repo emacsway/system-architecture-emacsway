@@ -441,6 +441,7 @@ API-Design
 - "`CRUD, only when you can afford it (Revisited) <https://blogs.msdn.microsoft.com/maarten_mullender/2004/07/23/crud-only-when-you-can-afford-it-revisited/>`__" by Maarten Mullender
 - "`CQRS and DDD patterns are not top-level architectures <https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/eshoponcontainers-cqrs-ddd-microservice#cqrs-and-ddd-patterns-are-not-top-level-architectures>`__"
 - "`The API <https://twirl.github.io/The-API-Book/index.ru.html>`__" by Sergey Konstantinov (`Source Code <https://github.com/twirl/The-API-Book>`__, `English <https://twirl.github.io/The-API-Book/index.html>`__)
+- "`OpenAPI Governance Templates <https://www.postman.com/postman/workspace/postman-open-technologies-openapi-governance-templates/overview>`__" by Postman Open Technologies
 
 
 Event Storming
