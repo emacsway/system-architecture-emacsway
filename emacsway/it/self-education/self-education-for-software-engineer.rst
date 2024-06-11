@@ -427,6 +427,7 @@ API-Design
 - "`Good Practices for Capability URLs <https://w3ctag.github.io/capability-urls/>`__", W3C Draft
 - "`Web API Design - Crafting Interfaces that Developers Love <https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf>`__"
 - "`REST vs. GraphQL: A Critical Review <https://goodapi.co/blog/rest-vs-graphql>`__"
+- "`Why, after 6 years, I’m over GraphQL <https://bessey.dev/blog/2024/05/24/why-im-over-graphql/>`__" by Matt Bessey
 - "`5 reasons you shouldn't be using GraphQL <https://blog.logrocket.com/5-reasons-you-shouldnt-be-using-graphql-61c7846e7ed3/?gi=f67074d77004>`__" (`перевод на Русский <https://medium.com/devschacht/esteban-herrera-5-reasons-you-shouldnt-use-graphql-bae94ab105bc>`__)
 - "`OpenAPIs <https://www.openapis.org/>`__"
 - "`AsyncAPI <https://www.asyncapi.com/>`__"
