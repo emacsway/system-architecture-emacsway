@@ -351,7 +351,7 @@ Exporter
 
 .. code-block::
 
-  func (ex \*EndorserExporter) SetId(val MemberId) {
+  func (ex *EndorserExporter) SetId(val MemberId) {
       val.Export(func(v string) { ex.Id = v })
   }
 
@@ -366,7 +366,7 @@ Exporter
 
   ...
 
-  func (ex \*EndorserExporter) SetId(val uint) {
+  func (ex *EndorserExporter) SetId(val uint) {
       val.Export(func(v string) { ex.Id = v })
   }
 
