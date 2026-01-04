@@ -379,20 +379,20 @@ Exporter
 
 .. admonition:: [UPDATE]
 
-  На самом деле, не нужно, если метод будет возвращать экспортер для примитивных значений так же, как и для композитных значений:
+   На самом деле, не нужно, если метод будет возвращать экспортер для примитивных значений так же, как и для композитных значений:
 
-  .. code-block::
+   .. code-block::
 
-    func (e Endorser) Export(ex EndorserExporterSetter) {
-        e.id.Export(ex.SetId())
-        ...
-    }
+      func (e Endorser) Export(ex EndorserExporterSetter) {
+          e.id.Export(ex.SetId())
+          ...
+      }
 
-    ...
+      ...
 
-    func (ex *EndorserExporter) SetId() func(uint) {
-        return func(v string) { ex.Id = v }
-    }
+      func (ex *EndorserExporter) SetId() func(uint) {
+          return func(v string) { ex.Id = v }
+      }
 
 Вторая проблема заключается в том, что для автоинкрементных PK нам нужен доступ к методу Id.Scan(any).
 И во втором варианте он не доступен.
@@ -400,9 +400,27 @@ Exporter
 
 Третья проблема - иногда нужно иметь доступ именно к ValueObject, например, при реализации Specification Pattern.
 
-Четвертая проблема - сохранение консистентности, ведь, когда мы создаем агрегат, мы передаем в его конструктор ValueObject.
+Четвертая проблема - сохранение консистентности, ведь, когда мы создаем агрегат, мы передаем в его конструктор ValueObjects, а не примитивные значения.
 Этот вопрос имеет значение в языках, не имеющих пакетной области видимости, и агрегат должен предоставлять интерфейс импортера.
 Что должен предоставлять импортер, примитивные типы или ValueObjects?
+
+    A FACTORY used for **reconstitution is very similar to one used for creation, with two major differences**.
+
+    1. An ENTITY FACTORY used for reconstitution **does not assign a new tracking ID**.
+       To do so would lose the continuity with the object's previous incarnation.
+       So identifying attributes must be part of the input parameters in a FACTORY reconstituting a stored object.
+
+    2. A FACTORY reconstituting an object will handle violation of an invariant differently.
+       During creation of a new object, a FACTORY should simply balk when an invariant isn't met, but a more flexible response may be necessary in reconstitution.
+       If an object already exists somewhere in the system (such as in the database), this fact cannot be ignored.
+       Yet we also can't ignore the rule violation.
+       There has to be some strategy for repairing such inconsistencies, which can make reconstitution more challenging than the creation of new objects.
+
+    Figures 6.16 and 6.17 (on the next page) show two kinds of reconstitution.
+    Object-mapping technologies may provide some or all of these services in the case of database reconstitution, which is convenient.
+    Whenever there is exposed complexity in reconstituting an object from another medium, the FACTORY is a good option.
+
+    -- "Domain-Driven Design: Tackling Complexity in the Heart of Software" by Eric Evans, Chapter "Six. The Life Cycle of a Domain Object :: Factories"
 
 ..
   Четвертая проблема заключается в том, что становится многословней реализация экспортеров-запросов к БД для композитных ValueObject.
