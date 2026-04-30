@@ -1063,18 +1063,7 @@ Code Smell catalogs
 - `Sample Bounded Contexts from the book "Implementing Domain-Driven Design" <https://github.com/VaughnVernon/IDDD_Samples>`__ by Vaughn Vernon
 - `xoom-examples <https://github.com/vlingo/xoom-examples>`__ - the VLINGO XOOM examples demonstrating features and functionality available in the reactive components.
 - Implementation of samples from the book "Domain-Driven Design" by Eric Evans in `Java <https://github.com/citerus/dddsample-core>`__, `C# <https://github.com/SzymonPobiega/DDDSample.Net>`__, `Ruby <https://github.com/paulrayner/ddd_sample_app_ruby>`__, `Golang <https://github.com/marcusolsson/goddd>`__ (`yet another Golang <https://github.com/go-kit/kit/tree/master/examples/shipping>`__). See also `the article <https://www.citerus.se/go-ddd>`__.
-- `Goa <https://goa.design/>`__ provides a holistic approach for developing remote APIs and microservices in Go.
 - `Simple CQRS example <https://github.com/gregoryyoung/m-r>`__ by Greg Young (приложение так же реализует Event Sourcing)
-- `Greg Young's Simple CQRS in F# <https://github.com/thinkbeforecoding/m-r>`__ by Jérémie Chassaing
-
-- `Golang DDD ES/CQRS Reference Application <https://github.com/EventStore/training-advanced-go>`__ by EventStore contributors
-- `Complete serverless application to show how to apply DDD, Clean Architecture, and CQRS by practical refactoring of a Go project <https://github.com/ThreeDotsLabs/wild-workouts-go-ddd-example>`__ (`more info <https://threedots.tech/post/serverless-cloud-run-firebase-modern-go-application/>`__) by Robert Laszczak
-- `Clean Monolith Shop <https://github.com/ThreeDotsLabs/monolith-microservice-shop>`__ by Robert Laszczak - Source code for article "`Why using Microservices or Monolith can be just a detail? <https://threedots.tech/post/microservices-or-monolith-its-detail/>`__"
-- `go-iddd - showcase project for implementing DDD in Go <https://github.com/AntonStoeckl/go-iddd>`__ by Anton Stöckl (see more info `here <https://medium.com/@TonyBologni/implementing-domain-driven-design-and-hexagonal-architecture-with-go-1-292938c0a4d4>`__ and `here <https://medium.com/@TonyBologni/implementing-domain-driven-design-and-hexagonal-architecture-with-go-2-efd432505554>`__).
-- `transfer-money-go <https://github.com/agiledragon/transfer-money-go>`__ by Zhang Xiaolong -  A sample of DDD and DCI in Go.
-- `ddd-sample-in-golang <https://github.com/agiledragon/ddd-sample-in-golang>`__ by Zhang Xiaolong.
-- `go-distributed-sys <https://github.com/shijuvar/go-distributed-sys>`__ - Guidance for building distributed systems and Microservices in Go. "`Building Event-Driven Distributed Systems in Go with gRPC, NATS JetStream and CockroachDB <https://shijuvar.medium.com/building-event-driven-distributed-systems-in-go-with-grpc-nats-jetstream-and-cockroachdb-c4b899c8636d>`__" by Shiju Varghese
-- `Real-time Map <https://github.com/asynkron/realtimemap-go>`__ displays real-time positions of public transport vehicles in Helsinki. It's a showcase for `Proto.Actor <https://proto.actor/>`__ - an ultra-fast distributed actors solution for Go, C#, and Java/Kotlin. See also `realtimemap-dotnet <https://github.com/asynkron/realtimemap-dotnet>`__ implementation in .NET.
 
 - `Demo taxi system, using eventsourcing library <https://github.com/johnbywater/es-example-taxi-demo>`__ by John Bywater
 - `Example "bank accounts" application using the Python eventsourcing library <https://github.com/johnbywater/es-example-bank-accounts>`__ by John Bywater
@@ -1087,9 +1076,6 @@ Code Smell catalogs
 - `Sample code for the book Principles, Practices and Patterns of Domain-Driven Design <https://github.com/elbandit/PPPDDD>`__ by Scott Millett, Nick Tune
 - `Hands-On Domain-Driven Design with .NET Core, published by Packt <https://github.com/PacktPublishing/Hands-On-Domain-Driven-Design-with-.NET-Core>`__ by Alexey Zimarev
 - "`dotnet-sample <https://github.com/Eventuous/dotnet-sample>`__" - Sample application using Eventuous .NET by Alexey Zimarev
-- `Extended code samples related to the book "Domain Modeling Made Functional" <https://github.com/swlaschin/DomainModelingMadeFunctional>`__ by Scott Wlaschin
-- `Railway-Oriented-Programming-Example <https://github.com/swlaschin/Railway-Oriented-Programming-Example>`__ by Scott Wlaschin
-- `Order Taking Service <https://github.com/andorp/order-taking>`__ - Idris version of Domain Modeling Made Functional Book.
 - `DDD with Actors <https://github.com/VaughnVernon/DDDwithActors>`__ by Vaughn Vernon
 - `The examples for the book "Reactive Messaging Patterns with the Actor Model" <https://github.com/VaughnVernon/ReactiveMessagingPatterns_ActorModel>`__ by Vaughn Vernon
 - `A Stock Trader system to demonstrate reactive systems development <https://github.com/VaughnVernon/reactive-stock-trader>`__ (`source <https://github.com/RedElastic/reactive-stock-trader>`__ by RedElastic)
@@ -1107,6 +1093,33 @@ Code Smell catalogs
 - `Specification Pattern in C# <https://github.com/vkhorikov/SpecPattern>`__ by Vladimir Khorikov
 - `Specification pattern implementation in C# <https://github.com/vkhorikov/SpecificationPattern>`__ by Vladimir Khorikov
 - `Validation in DDD course <https://github.com/vkhorikov/ValidationInDDD>`__ by Vladimir Khorikov
+
+Golang:
+
+- `Goa <https://goa.design/>`__ provides a holistic approach for developing remote APIs and microservices in Go.
+- `Golang DDD ES/CQRS Reference Application <https://github.com/EventStore/training-advanced-go>`__ by EventStore contributors
+- `Complete serverless application to show how to apply DDD, Clean Architecture, and CQRS by practical refactoring of a Go project <https://github.com/ThreeDotsLabs/wild-workouts-go-ddd-example>`__ (`more info <https://threedots.tech/post/serverless-cloud-run-firebase-modern-go-application/>`__) by Robert Laszczak
+- `Clean Monolith Shop <https://github.com/ThreeDotsLabs/monolith-microservice-shop>`__ by Robert Laszczak - Source code for article "`Why using Microservices or Monolith can be just a detail? <https://threedots.tech/post/microservices-or-monolith-its-detail/>`__"
+- `go-iddd - showcase project for implementing DDD in Go <https://github.com/AntonStoeckl/go-iddd>`__ by Anton Stöckl (see more info `here <https://medium.com/@TonyBologni/implementing-domain-driven-design-and-hexagonal-architecture-with-go-1-292938c0a4d4>`__ and `here <https://medium.com/@TonyBologni/implementing-domain-driven-design-and-hexagonal-architecture-with-go-2-efd432505554>`__).
+- `transfer-money-go <https://github.com/agiledragon/transfer-money-go>`__ by Zhang Xiaolong -  A sample of DDD and DCI in Go.
+- `ddd-sample-in-golang <https://github.com/agiledragon/ddd-sample-in-golang>`__ by Zhang Xiaolong.
+- `go-distributed-sys <https://github.com/shijuvar/go-distributed-sys>`__ - Guidance for building distributed systems and Microservices in Go. "`Building Event-Driven Distributed Systems in Go with gRPC, NATS JetStream and CockroachDB <https://shijuvar.medium.com/building-event-driven-distributed-systems-in-go-with-grpc-nats-jetstream-and-cockroachdb-c4b899c8636d>`__" by Shiju Varghese
+- `Real-time Map <https://github.com/asynkron/realtimemap-go>`__ displays real-time positions of public transport vehicles in Helsinki. It's a showcase for `Proto.Actor <https://proto.actor/>`__ - an ultra-fast distributed actors solution for Go, C#, and Java/Kotlin. See also `realtimemap-dotnet <https://github.com/asynkron/realtimemap-dotnet>`__ implementation in .NET.
+
+- `Eventhus <https://github.com/mishudark/eventhus>`__ -- CQRS/ES toolkit for Go.
+- `CQRS framework in go <https://github.com/andrewwebber/cqrs>`__
+- `Event Horizon <https://github.com/looplab/eventhorizon>`__ -- Event Horizon is a CQRS/ES toolkit for Go.
+- `Go Event Sourcing CQRS Microservice <https://github.com/AleksK1NG/Go-EventSourcing-CQRS>`__
+- `Go gRPC Kafka CQRS microservices with tracing <https://github.com/AleksK1NG/Go-CQRS-Kafka-gRPC-Microservices>`__
+- `Go Server/API boilerplate using best practices DDD CQRS ES gRPC <https://github.com/vardius/go-api-boilerplate>`__
+
+Functional Programming DDD:
+
+- `Extended code samples related to the book "Domain Modeling Made Functional" <https://github.com/swlaschin/DomainModelingMadeFunctional>`__ by Scott Wlaschin
+- `Railway-Oriented-Programming-Example <https://github.com/swlaschin/Railway-Oriented-Programming-Example>`__ by Scott Wlaschin
+- `Order Taking Service <https://github.com/andorp/order-taking>`__ - Idris version of Domain Modeling Made Functional Book
+- `DDD in Haskell based on "Domain Modeling Made Functional" book <https://github.com/nakaakist/haskell-ddd-order-taking>`__
+- `Greg Young's Simple CQRS in F# <https://github.com/thinkbeforecoding/m-r>`__ by Jérémie Chassaing
 
 Варианты реализации OO/Functional Aggregates на примере Reference Applications by Chris Richardson:
 
