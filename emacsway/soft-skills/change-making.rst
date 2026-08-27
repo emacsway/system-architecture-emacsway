@@ -164,6 +164,7 @@ Nick Tune поделился `историей конфликта с одним 
 - "`Larman's Laws of Organizational Behavior <https://craiglarman.com/wiki/index.php?title=Larman%27s_Laws_of_Organizational_Behavior>`__" by Craig Larman (`на русском <https://habr.com/ru/companies/scrumtrek/articles/320832/>`__)
 - "`Structure <https://less.works/less/structure>`__" by Craig Larman (`на русском <https://less.works/ru/less/structure>`__)
 - "Social psychology" 13th edition by David G. Myers. Перевод: "Социальная психология" / Майерс Д. Пер. с англ. З. Замчук; Зав. ред. кол. Л. Винокуров. — 7-е изд. — СПб.: Питер, 2006.
+- "Quality Software Management" vol.4 "Anticipating Change" by Gerald M. Weinberg
 - "Leading Change, With a New Preface by the Author" by John P. Kotter, November 6, 2012
 - "The Dance of Change: The challenges to sustaining momentum in a learning organization" by Peter M. Senge, George Roth, March 16, 1999
 - "Lean Change Management: Innovative practices for managing organizational change" by Jason Little
