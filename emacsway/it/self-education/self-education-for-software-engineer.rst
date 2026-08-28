@@ -575,6 +575,9 @@ Scaled Agile
 - "Systems Thinking. Quality Software Management. New York: Dorset House." by Gerald M. Weinberg, 1992,  ISBN: 0932633226
 - "An Introduction to General Systems Thinking" by Gerald M. Weinberg
 - "Becoming a Technical Leader" by Gerald M. Weinberg
+- "The Secrets of Consulting" by Gerald M. Weinberg
+- "More Secrets of Consulting" by Gerald M. Weinberg
+- "Quality Software Management" vol.1-4 by Gerald M. Weinberg
 - "Harvard Business Review on Decision Making" by Harvard Business School Press
 - "The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise 1st Edition" by Gregor Hohpe
 - "Fundamentals of Software Architecture: An Engineering Approach" 1st edition by Mark Richards, Neal Ford
