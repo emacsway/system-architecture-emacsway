@@ -422,6 +422,7 @@ API-Design
 - "`Microsoft Graph API <https://docs.microsoft.com/en-us/graph/query-parameters#filter-parameter>`__"
 - "`OData protocol <https://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part2-url-conventions/odata-v4.0-errata03-os-part2-url-conventions-complete.html#_Toc453752358>`__"
 - "`Zalando RESTful API and Event Guidelines <https://opensource.zalando.com/restful-api-guidelines/>`__"
+- "`Application Enhancement Proposals <https://aep.dev/>`__"
 - "`Google REST API Guidelines <https://google.aip.dev/general>`__"
 - "`Apigee. Web API Design: The Missing Link. Best Practices for Crafting Interfaces that Developers Love. <https://cloud.google.com/files/apigee/apigee-web-api-design-the-missing-link-ebook.pdf>`__" by Google Cloud
 - "`Microservice API Patterns <https://microservice-api-patterns.org/>`__"
